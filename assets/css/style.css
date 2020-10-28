@@ -28,12 +28,13 @@ body {
 section {
   padding: 160px;
   align-content: center;
+  justify-content: center;
 }
 
 .section-title {
   font-size: 48px;
   color: var(--secondary-color);
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -44,10 +45,10 @@ section {
 .section-secondary-title {
   font-size: 48px;
   color: var(--tertiary-color);
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto 35px auto;
+  margin: 0 auto 0 auto;
   width: 50%;
   font-family: "Montserrat", Arial, Tahoma, sans-serif;
 } 
@@ -166,10 +167,19 @@ header nav ul li a:hover {
 .intro p {
   line-height: 1.7;
   color: var(--quaternary-color);
-  width: 80%;
+  width: 60%;
   font-size: 16px;
   margin: 0 auto;
+  padding-top: 20px;
   text-align: center;
+}
+
+.portfolio-image {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /* SERVICES */
@@ -179,20 +189,18 @@ header nav ul li a:hover {
 }
 
 .step {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
-  display: flex;
+  margin: 75px auto;
+  padding-bottom: 20px;
+  width: 60%; 
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--tertiary-color);
+  justify-content: center;
 }
 
 .step h3 {
   color: var(--secondary-color);
-  font-size: 46px;
-  flex: 1 30%;
+  font-size: 36px;
+  text-align: center;
 }
 
 .step-info {
@@ -204,11 +212,36 @@ header nav ul li a:hover {
 
 .step-img {
   flex: 1 12%;
-  margin-right: 20px;
+
+}
+
+.step-border {
+  color: var(--tertiary-color);
+  border-bottom: 1px solid;
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 75%;
+}
+
+.step-graphics {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.step-dev {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top: 120px;
 }
 
 .step-img img {
   max-width: 100%;
+  align-items: center;
 }
 
 .step:last-child {
@@ -216,18 +249,21 @@ header nav ul li a:hover {
 }
 
 .step-text {
-  flex: 12;
+  justify-content: center;
+  text-align: center;
 }
 
 .step h4 {
-  font-size: 26px;
+  font-size: 21px;
   line-height: 1.5;
   color: var(--secondary-color);
 }
 
 .step-text p {
   color: var(--tertiary-color);
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 30px;
 }
 
 /* PORTFOLIO */
@@ -427,8 +463,7 @@ footer {
 }
 
 footer h2 {
-  color: var(--secondary-color);
-  font-size: 30px; 
+  font-size: 21px; 
   margin: 0;
 }
 
