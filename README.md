@@ -1,7 +1,7 @@
-# Run Buddy Inc.
+# Valiant Creative LLC.
 
 ## Purpose 
-​A website that offers **fitness training services**.
+​The personal portfolio of Ruben Matamoros, of **Valiant Creative**.
 ​
 ## Built With
 * ***HTML***
@@ -11,11 +11,11 @@
 https://valiantcreative33.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Ruben Matamoros
+Handcrafted by Ruben Matamoros
 
-### ©️2019 Run Buddy, Inc
+### ©️2020 Valiant Creative, LLC
 ​
-## Mockup Screenshot 
+## Mockup Screenshot
 ​
 Screenshot mockup included below.
 
