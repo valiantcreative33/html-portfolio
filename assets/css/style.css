@@ -10,6 +10,8 @@
   --primary-color: #0032A1;
   --secondary-color: #3A8DDE;
   --tertiary-color: #ffffff;
+  --quaternary-color: #626262;
+  --quinary-color: #292B33; 
 }
 
 body {
@@ -24,18 +26,30 @@ body {
 /* SECTION STYLE */
 
 section {
-  padding: 60px;
+  padding: 160px;
 }
 
 .section-title {
   font-size: 48px;
   color: var(--secondary-color);
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
 }
+
+.section-secondary-title {
+  font-size: 48px;
+  color: var(--tertiary-color);
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  font-family: "Montserrat", Arial, Tahoma, sans-serif;
+} 
 
 .primary-border {
   border-color: var(--primary-color);
@@ -48,7 +62,7 @@ section {
 /* HEADER STYLE */
 
 header {
-  padding: 20px 35px;
+  padding: 30px 35px;
   background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -65,19 +79,22 @@ header {
 }
 
 header h1 {
-  font-weight: bold;
-  font-size: 36px; 
-  color: var(--primary-color);
+  position: relative;
   margin: 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header img {
+  float: left;
+  width: 50px;
+  height: 50px;
 }
 
 header nav {
-  margin: 7px 0;
+  margin: 15px;
 }
 
 header a {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-decoration: none;
 }
 
@@ -90,15 +107,15 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 10px 30px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 1.15vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+} 
 
 header nav ul li a:hover {
-  background: var(--primary-color);
-  color: var(--secondary-color);
+  background: var(--tertiary-color);
+  color: var(--primary-color);
   border-radius: 15px;
   text-shadow: none;
 }
@@ -129,17 +146,17 @@ header nav ul li a:hover {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: var(--primary-color);
+  color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
-  background-color: rgba(252, 225, 56, 0.8);
+  background-color: rgba(255, 255, 255, 0); 
   color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   border-radius: 15px;
   padding: 20px;
-  width: 40%;
+  width: 50%;
   margin: 3.5%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -251,21 +268,21 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
 
-/* WHAT WE DO STYLE */
+/* ABOUT */
 
 .intro p {
   line-height: 1.7;
-  color: var(--tertiary-color);
+  color: var(--quaternary-color);
   width: 80%;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* WHAT YOU DO STYLE */
+/* SERVICES */
 
 .steps {
-  background: var(--primary-color);
+  background: var(--quinary-color);
 }
 
 .step {
@@ -320,7 +337,7 @@ header nav ul li a:hover {
   font-size: 18px;
 }
 
-/* MEET THE TRAINERS STYLE */
+/* PORTFOLIO */
 
 .trainers {
   width: 100%;
@@ -480,11 +497,11 @@ header nav ul li a:hover {
 /* CONTACT STYLE */
 
 .contact {
-  background-color: var(--secondary-color);
+  background-color: var(--quinary-color);
 }
 
 .contact h2 {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .contact-info {
@@ -503,7 +520,7 @@ header nav ul li a:hover {
 }
 
 .contact-info h3 {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .contact-info p, 
