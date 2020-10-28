@@ -8,7 +8,7 @@
 * ***CSS***
 
 ## Website
-https://valiantcreative33.github.io/run-buddy/
+https://valiantcreative33.github.io/valiantcreative33/
 
 ## Contribution
 Handcrafted by Ruben Matamoros
