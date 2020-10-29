@@ -531,6 +531,27 @@ footer div {
 
 @media screen and (max-width: 768px) {
   
+  .header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  .header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header nav ul {
+    margin-top: 20px; 
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header nav ul li a {
+    font-size: 20px;
+  }
+  
   section {
       padding: 30px 15px;
   }
@@ -591,7 +612,29 @@ footer div {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
-     .section-title {
+  
+  .header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  .header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header nav ul {
+    margin-top: 20px; 
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header nav ul li a {
+    font-size: 20px;
+  }
+  
+  .section-title {
       width: 95%;
   }
 
