@@ -19,4 +19,4 @@ Handcrafted by Ruben Matamoros
 ​
 Screenshot mockup included below.
 
-![Portfolio Page](./assets/images/portfolio-mock-up.jpg)
+![Portfolio Page](./assets/images/portfolio-mock-up.png)
